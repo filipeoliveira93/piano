@@ -143,7 +143,8 @@ li {
   font-size: 1rem;
 }
 
-.white:active, .white-active {
+.white:active,
+.white-active {
   border-top: 1px solid #777;
   border-left: 1px solid #999;
   border-bottom: 1px solid #999;
@@ -153,7 +154,8 @@ li {
   background: linear-gradient(to bottom, #fff 0%, #e9e9e9 100%);
 }
 
-.black:active, .black-active {
+.black:active,
+.black-active {
   -webkit-box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.2) inset, 0 -2px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 1px 2px rgba(0, 0, 0, 0.5);
           box-shadow: -1px -1px 2px rgba(255, 255, 255, 0.2) inset, 0 -2px 2px 3px rgba(0, 0, 0, 0.6) inset, 0 1px 2px rgba(0, 0, 0, 0.5);
   background: -webkit-gradient(linear, left top, right top, from(#444), to(#222));
@@ -165,7 +167,7 @@ li {
 .a,
 .b,
 .g {
-  margin: 0 0 0 -1.5em;
+  margin: 0 0 0 -1em;
 }
 
 ul li:first-child {
