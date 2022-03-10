@@ -1,3 +1,4 @@
-/css/*_reset.scss
-/css/*style.css.map
-/css/*style.scss
+
+css/*.scss
+css/style.css.map
+
