@@ -19,7 +19,7 @@ document.addEventListener("keydown", (e) => {
 	if (audio == null) {
 		return;
 	} else {
-		let keyclass = document.querySelector(`.key[data-key="${key}"]`).classList;
+		var keyclass = document.querySelector(`.key[data-key="${key}"]`).classList;
 		audio.currentTime = 0;
 		audio.play();
 
